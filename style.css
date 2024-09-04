@@ -138,3 +138,37 @@ span {
     background-color: rgba(0, 0, 0, 0.618);
     width: 40px;
 }
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    background-color: #000000;
+}
+
+.img-about img {
+    position: relative;
+    width: 400px;
+    box-shadow: 0 0 26px #ff4500,
+    0 0 26px #ff4500;
+    border-radius: 37%;
+}
+
+.about-content h2 {
+    text-align: left;
+    color: #ffffff;
+    font-size: 43px;
+}
+
+.about-content h3 {
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.about-content p {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 2em 0 3em;
+}
